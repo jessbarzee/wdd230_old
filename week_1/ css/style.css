@@ -1,0 +1,14 @@
+.page {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body{
+    align-content: center;
+}
+
+header{
+    border: 10px solid #000;
+    width: 30px;
+    align-content: center;
+}
