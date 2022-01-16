@@ -16,9 +16,12 @@
 <body>
     <div class="page">
         <header>
-            <!-- <img src="images/portrait.JPG" alt="Portrait of Student"> -->
-            <h1>Jessica L. Hansen</h1>
+            <div class="header_image"><img src="images/IMG_4095.jpeg" alt="Portrait of Student" style="width:200px;"></div>
+            <div class="header_name"><h1>Jessica L. Hansen</h1></div>
         </header>
+
+        <h2>WDD 230: Assignment Portal</h2>
+        <hr>
 
         <p>
             <ul>
@@ -34,12 +37,22 @@
                 <li>Lesson 11: <a href="#">Title</a></li>
             </ul>
         </p>
+        <hr>
+        <p>Some lessons may need more than one activity/assignment link</p>
 
         <footer>
-            <p>
-                &copy; 2022 .:|:. Jessica L. Hansen .:|:. Utah
-                Last Updated
-            </p>
+            <p> &copy; 2022 .:|:. Jessica L. Hansen .:|:. Utah </p>
+
+            
+            <div class="last_updated">
+                <p>Last Updated 
+                    <p id="demo"></p>
+                    <script>
+                        var x = document.lastModified;
+                        document.getElementById("demo").innerHTML = x;
+                        </script>
+                </p>
+            </div>
         </footer>
     </div>
 </body>
