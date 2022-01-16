@@ -1,0 +1,20 @@
+header, footer {
+    background-color: navy;
+    color: white;
+}
+
+main{
+    display: grid;
+}
+
+.rule_of_thirds{
+    grid-column: 1/2;
+}
+
+.contrast{
+    grid-column: 2/3;
+}
+
+.visual_hiearchy {
+    grid-column: 3/4;
+}
