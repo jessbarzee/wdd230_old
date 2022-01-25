@@ -1,6 +1,8 @@
 header, footer {
-    background-color: navy;
+    background-color: rgb(192, 134, 96);
     color: white;
+    border-radius: 25px;
+    text-align: center;
 }
 
 main{
@@ -9,12 +11,84 @@ main{
 
 .rule_of_thirds{
     grid-column: 1/2;
+    background-color: oldlace;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    
 }
 
 .contrast{
     grid-column: 2/3;
+    background-color: oldlace;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 .visual_hiearchy {
     grid-column: 3/4;
+    background-color: oldlace;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
 }
+
+.rule_of_thirds img {
+    max-width: 90%;
+}
+
+.contrast img{
+    max-width: 90%;
+}
+
+.visual_hiearchy img{
+    max-width: 90%;
+    padding: 10px;
+}
+
+ 
+@media (min-width: 1200px) {
+    .rule_of_thirds{
+        grid-column: 1/2;
+    }
+
+    .contrast{
+        grid-column: 2/3;
+    }
+
+    .visual_hiearchy {
+        grid-column: 3/4;
+    }
+
+}
+
+/*
+@media (min-width: 800px) {
+    .rule_of_thirds{
+        grid-column: 1/2;
+    }
+
+    .contrast{
+        grid-column: 2/3;
+    }
+
+    .visual_hiearchy {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+}
+
+@media (min-width: 10px) {
+    .rule_of_thirds{
+        grid-column: 1/2;
+    }
+
+    .contrast{
+        grid-column: 2/3;
+    }
+
+    .visual_hiearchy {
+        grid-column: 3/4;
+    }
+} */
