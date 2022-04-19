@@ -1,0 +1,12 @@
+.mainnav{
+    background-color: oldlace;
+    height: 50px;
+
+}
+
+body {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
