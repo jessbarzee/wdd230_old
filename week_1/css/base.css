@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14pt;
+}
+
+header, main, footer{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 1rem auto;
+    border: 1px solid rgb(103, 101, 187);
+    background-color: rgb(103, 101, 187);
+    border-radius: 25px;
+    color: white;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+}
+
+header img{
+    width: 75%;
+    height: auto;
+    padding: 0.5rem;
+}
+
+footer {
+    margin: 1rem auto;
+    border: 1px solid rgb(103, 101, 187);
+    background-color: rgb(103, 101, 187);
+    border-radius: 25px;
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+}
+
+.last_updated{
+    color: yellow;
+}

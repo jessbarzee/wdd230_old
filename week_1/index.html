@@ -9,39 +9,49 @@
         content="WDD 230 Course Summary page for Jessica L. Hansen: Web Frontend Development at BYU-Idaho">
     <title>Course Home Page</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script>src="getdate.js"</script>
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
 </head>
 
 <body>
-    <div class="page">
-        <header>
-            <!-- <img src="images/portrait.JPG" alt="Portrait of Student"> -->
-            <h1>Jessica L. Hansen</h1>
-        </header>
+    <header>
+        <picture>
+            <img src="images/mattandjess.jpeg" alt="Portrait of Student">
+        </picture>
+        <h1>Jessica L. Hansen</h1>
+    </header>
+    <main>
+        <h2>WDD 230: Assignment Portal</h2>
 
-        <p>
-            <ul>
-                <li>Lesson 02: <a href="#">Title</a></li>
-                <li>Lesson 03: <a href="#">Title</a></li>
-                <li>Lesson 04: <a href="#">Title</a></li>
-                <li>Lesson 05: <a href="#">Title</a></li>
-                <li>Lesson 06: <a href="#">Title</a></li>
-                <li>Lesson 07: <a href="#">Title</a></li>
-                <li>Lesson 08: <a href="#">Title</a></li>
-                <li>Lesson 09: <a href="#">Title</a></li>
-                <li>Lesson 10: <a href="#">Title</a></li>
-                <li>Lesson 11: <a href="#">Title</a></li>
-            </ul>
-        </p>
+        <ul>
+            <li>Lesson 02: <a href="#">Title</a></li>
+            <li>Lesson 03: <a href="#">Title</a></li>
+            <li>Lesson 04: <a href="#">Title</a></li>
+            <li>Lesson 05: <a href="#">Title</a></li>
+            <li>Lesson 06: <a href="#">Title</a></li>
+            <li>Lesson 07: <a href="#">Title</a></li>
+            <li>Lesson 08: <a href="#">Title</a></li>
+            <li>Lesson 09: <a href="#">Title</a></li>
+            <li>Lesson 10: <a href="#">Title</a></li>
+            <li>Lesson 11: <a href="#">Title</a></li>
+        </ul>
+        <p>Some lessons may need more than one activity/assignment link</p>
 
-        <footer>
-            <p>
-                &copy; 2022 .:|:. Jessica L. Hansen .:|:. Utah
-                Last Updated
-            </p>
-        </footer>
-    </div>
+    </main>
+
+    <footer>
+        <p> &copy;  2022  .:|:.  Jessica L. Hansen  .:|:.  Utah </p>
+
+        <div class="last_updated">
+            <p id="lastupdated"> Last Updated </p>
+            <script>
+                var x = document.lastModified;
+                document.getElementById("lastupdated").innerHTML = x;
+            </script>
+        </div>
+        <!-- <span id="currentdate"></span> -->
+    </footer>
 </body>
 
 </html>
