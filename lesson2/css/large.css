@@ -1,5 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header, main, footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
 header, footer {
-    background-color: rgb(192, 134, 96);
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #9381FF;
     color: white;
     border-radius: 25px;
     text-align: center;
@@ -11,7 +26,7 @@ main{
 
 .rule_of_thirds{
     grid-column: 1/2;
-    background-color: oldlace;
+    background-color: #F8F7FF;
     margin: 10px;
     padding: 10px;
     border-radius: 25px;
@@ -20,15 +35,15 @@ main{
 
 .contrast{
     grid-column: 2/3;
-    background-color: oldlace;
-    margin: 10px;
+    background-color: #F8F7FF;
+    margin: .5rem auto;
     padding: 10px;
     border-radius: 25px;
 }
 
 .visual_hiearchy {
     grid-column: 3/4;
-    background-color: oldlace;
+    background-color: #F8F7FF;
     margin: 10px;
     padding: 10px;
     border-radius: 25px;
@@ -45,6 +60,14 @@ main{
 .visual_hiearchy img{
     max-width: 90%;
     padding: 10px;
+}
+
+ h3, h4, p, img {
+    padding: 1rem;
+ }
+
+footer {
+    margin: 0 auto;
 }
 
  

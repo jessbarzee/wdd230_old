@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Comfortaa', cursive
 }
 
 body {
@@ -14,13 +15,15 @@ header, main, footer{
     margin: 0 auto;
 }
 
-header {
+header, footer{
     margin: 1rem auto;
     border: 1px solid rgb(103, 101, 187);
     background-color: rgb(103, 101, 187);
-    border-radius: 25px;
     color: white;
     padding: 0.5rem;
+}
+
+header {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
@@ -32,13 +35,18 @@ header img{
     padding: 0.5rem;
 }
 
+h1{
+    font-size: 1.5rem;
+    margin: 0.15rem;
+}
+
+h2{
+    font-size: 1rem;
+    border-bottom: 1px solid #9999;
+    text-shadow: 2px 2px 5px #000;
+}
+
 footer {
-    margin: 1rem auto;
-    border: 1px solid rgb(103, 101, 187);
-    background-color: rgb(103, 101, 187);
-    border-radius: 25px;
-    padding: 0.5rem;
-    color: white;
     text-align: center;
 }
 
