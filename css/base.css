@@ -45,3 +45,11 @@ footer {
 .last_updated{
     color: yellow;
 }
+
+ul {
+    margin-left: 2rem;
+}
+
+li {
+    padding: .2rem;
+}
