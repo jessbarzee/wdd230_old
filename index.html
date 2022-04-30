@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to WDD 230</title>
+    <meta name="description"
+        content="WDD 230 Course Summary page for Jessica L. Hansen: Web Frontend Development at BYU-Idaho">
+    <title>Jessica Hansen Course Home Page</title>
+
+    <link rel="stylesheet" href="css/base.css">
+    <script>src="getdate.js"</script>
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
 </head>
+
 <body>
     <header>
-        <h1>Welcome to WDD 230!</h1>
+        <picture>
+            <img src="images/mattandjess.jpeg" alt="Portrait of Student">
+        </picture>
+        <h1>Jessica L. Hansen</h1>
     </header>
+    <main>
+        <h2>WDD 230: Assignment Portal</h2>
+        <hr>
 
-    <h2>About Me:</h2>
-    <p>
-        My name is Jessica Hansen and I am from Rexburg, Idaho. WHile I was not born in Rexburg
-        I did go to school there from Kindergarten all the way through High School. My Husband is 
-        also from Rexburg. We grew up being next door neighbors, so I guess you could say I was the
-        girl next door. 
-    </p>
+        <ul>
+            <li>Lesson 02: <a href="#">Title</a></li>
+            <li>Lesson 03: <a href="#">Title</a></li>
+            <li>Lesson 04: <a href="#">Title</a></li>
+            <li>Lesson 05: <a href="#">Title</a></li>
+            <li>Lesson 06: <a href="#">Title</a></li>
+            <li>Lesson 07: <a href="#">Title</a></li>
+            <li>Lesson 08: <a href="#">Title</a></li>
+            <li>Lesson 09: <a href="#">Title</a></li>
+            <li>Lesson 10: <a href="#">Title</a></li>
+            <li>Lesson 11: <a href="#">Title</a></li>
+        </ul>
 
-    <h2>List of My Favorite Foods</h2>
-    <ul>
-        <li>Pizza</li>
-        <li>Indian Curry</li>
-        <li>Thai Curry</li>
-        <li>Nutella</li>
-        <li>Any Desserts</li>
-    </ul>
-    
+        <hr>
+
+    </main>
+
     <footer>
-        <p>
-            &copy; 2021 - Phoenix Clothing Company - Jessica Hansen - WDD 230
-        </p>
+        <p> &copy;  2022  .:|:.  Jessica L. Hansen  .:|:.  Utah </p>
+
+        <div class="last_updated">
+            <p id="lastupdated"> Last Updated </p>
+            <script>
+                var x = document.lastModified;
+                document.getElementById("lastupdated").innerHTML = x;
+            </script>
+        </div>
+        <!-- <span id="currentdate"></span> -->
     </footer>
 </body>
+
 </html>
