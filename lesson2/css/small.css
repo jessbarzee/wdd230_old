@@ -1,3 +1,16 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (max-width: 32em) {
+    .rule_of_thirds{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
     
+    .contrast{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    } 
+    
+    .visual_hiearchy {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
 }

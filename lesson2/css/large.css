@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -14,9 +15,9 @@ header, main, footer{
 header, footer {
     margin: 1rem auto;
     padding: 1rem;
-    background-color: #9381FF;
-    color: white;
-    border-radius: 25px;
+    background-color: #b8b8ff;
+    border-style: #9381ff;
+    color: 	#3D3D3D;
     text-align: center;
 }
 
@@ -24,29 +25,37 @@ main{
     display: grid;
 }
 
+h3 {
+    background-color: #9381ff;
+    border-radius: 15px 15px 0px 0px;
+}
+
+h3, h4, p, img {
+    padding: 1rem;
+}
+
 .rule_of_thirds{
     grid-column: 1/2;
+    color: #3D3D3D;
     background-color: #F8F7FF;
     margin: 10px;
     padding: 10px;
-    border-radius: 25px;
-    
 }
 
 .contrast{
     grid-column: 2/3;
+    color: #3D3D3D;
     background-color: #F8F7FF;
     margin: .5rem auto;
     padding: 10px;
-    border-radius: 25px;
 }
 
 .visual_hiearchy {
     grid-column: 3/4;
+    color: #3D3D3D;
     background-color: #F8F7FF;
     margin: 10px;
     padding: 10px;
-    border-radius: 25px;
 }
 
 .rule_of_thirds img {
@@ -59,59 +68,9 @@ main{
 
 .visual_hiearchy img{
     max-width: 90%;
-    padding: 10px;
 }
-
- h3, h4, p, img {
-    padding: 1rem;
- }
 
 footer {
     margin: 0 auto;
 }
 
- 
-@media (min-width: 1200px) {
-    .rule_of_thirds{
-        grid-column: 1/2;
-    }
-
-    .contrast{
-        grid-column: 2/3;
-    }
-
-    .visual_hiearchy {
-        grid-column: 3/4;
-    }
-
-}
-
-/*
-@media (min-width: 800px) {
-    .rule_of_thirds{
-        grid-column: 1/2;
-    }
-
-    .contrast{
-        grid-column: 2/3;
-    }
-
-    .visual_hiearchy {
-        grid-row: 2/3;
-        grid-column: 1/2;
-    }
-}
-
-@media (min-width: 10px) {
-    .rule_of_thirds{
-        grid-column: 1/2;
-    }
-
-    .contrast{
-        grid-column: 2/3;
-    }
-
-    .visual_hiearchy {
-        grid-column: 3/4;
-    }
-} */
